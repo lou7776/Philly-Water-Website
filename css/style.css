@@ -1,0 +1,603 @@
+*{
+box-sizing: border-box;
+margin:0px;
+font-family: "Source Sans 3", "sans-serif";
+list-style-type: none;
+text-decoration: none;
+
+}
+
+.body{
+    overflow-x: hidden;
+}
+
+header{
+    /* display: flex; */
+    background: rgb(222,70,97);
+    color: white; 
+    padding: 15px 30px;
+    /* justify-content: flex-start; */
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+
+}
+
+
+
+.nav-links{
+    color: white; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:20px;
+
+}
+
+
+.nav-links a {
+    display:flex;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: flex-end;
+}  
+
+
+.yellow{
+    display: flex;
+    justify-content: center; 
+    background:rgb(248, 212,92);
+    font-size: 15px;
+
+}
+
+
+.pic{
+  background-image: linear-gradient(rgba(84, 32,48, 0.8)), 
+  url("../img/philly_water.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;;
+  justify-content: center;
+  gap: 27px;  
+  color: white;
+  padding: 32px;
+
+}
+
+
+
+
+.location-text {
+  color: #e8763c;
+  font-size: 14px;
+  font-weight: 700;
+   gap: 32px;  
+}
+
+.pic h1 {
+  font-size: 48px;
+  margin: 0;
+  max-width: 450px;
+   width: 100%;
+}
+
+
+.pic p {
+  max-width: 365px;
+  width: 100%;
+  margin: 0; 
+}
+
+
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.buttons a {
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.buttons a.orange-two {
+  background-color:rgb(248, 212,92);
+  border: 2px solid rgb(248, 212,92);
+  color: black;
+}
+
+.buttons a.orange-one {
+  background-color:rgb(248, 212,92);
+  border: 2px solid rgb(248, 212,92);
+  color: white;
+}
+
+
+.buttons a.second-button{
+  background: transparent;
+  border: 2px solid white;
+}
+
+
+
+
+.flavors{
+    background-color: rgb(254,248,240); 
+    padding: 70px;
+    color: rgb(208,212,215)
+
+}
+
+
+.flavor-board{
+    color:rgb(218,98,121); 
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+.flavors h2{
+    color: black; 
+}
+
+.batch{
+    color: rgb(208,192,197);
+    margin-left: 10px;
+}
+
+.special{
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+}
+
+
+.words{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+
+.step-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style: none;
+
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 0;
+    
+    
+}
+
+
+.step-container li{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;  
+    flex: 0 0 180px;
+    min-height: 120px;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 18px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255);
+    color: rgb(0,0,0);
+    font-weight: 1000;
+    
+   
+}
+
+
+.step-container li .title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+
+}
+
+.step-container p{
+    color: rgb(193,185,191);
+    font-size: 11px;
+}
+
+.step-row1 li { 
+    border-top: 4px solid #e0245e; 
+}
+
+.step-row2 li { 
+    border-top: 4px solid #f4c20d; 
+    }
+
+.step-row3 li { 
+    border-top: 4px solid #3498db; 
+}
+
+.step-row4 li { 
+    border-top: 4px solid #f39c12; 
+}
+
+.step-row5 li { 
+    border-top: 4px solid #9b59b6; 
+}
+
+.step-container .step-row1 .title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(214,79,106);
+}
+
+
+.step-container .step-row2 .title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(248,214,100);
+}
+
+
+.step-container .step-row3 .title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(99,120,221);
+
+}
+
+
+.step-container .step-row4 .title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(242,173,109);
+
+}
+
+
+.step-container .step-row5 .title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(189,135,226);
+
+}
+
+
+.Prices{
+    background-color: rgb(188, 227,243);
+    padding: 50px 60px;
+}
+
+.prices-top{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+.Prices span{
+    display: block;
+    margin-bottom: 6px;
+}
+
+.Prices h2{
+     max-width: 800px;
+    margin: 0 auto; 
+
+}
+
+
+
+.price_container{
+     display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.card{
+    display: flex;              
+    flex-direction: column;  
+    justify-content: center; 
+    flex: 0 0 130px;
+    min-height: 100px;
+    box-sizing: border-box;  
+    border-radius: 5px;
+    padding: 18px;
+    background-color: rgba(255, 255, 255);
+    color: rgb(0,0,0);
+    font-weight: 1000;
+    text-align: center;
+     gap: 10px;    
+    
+
+}
+
+
+.prices-top span{
+    color: rgb(214,79,106); 
+    font-size: 10px;
+}
+
+
+.card .price{
+    color: rgb(214,79,106); 
+    font-size: 15px;
+
+}
+
+.card .description{
+    color: rgb(179,169,176); 
+    font-size: 10px;
+
+}
+
+
+.Prices p.gelati{
+    margin-top: 25px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    text-align: center;
+    font-size: 11px;
+}
+
+
+
+.hour-time{
+    max-width: 800px;  
+    margin: 0 auto;
+}
+
+.hour-time span{
+     color: rgb(214,79,106); 
+    font-size: 10px;
+
+}
+
+
+.hours_and_directions{
+    background-color: rgb(254,248,240);
+
+}
+
+
+.time_container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+
+.hours, .info, .house_rules{
+    flex: 0 0 180px;
+    min-height: 100px;
+    border-radius: 5px;
+    padding: 18px;
+    background-color: rgba(255, 255, 255);
+    color: rgb(0,0,0);
+    font-weight: 1000;
+}
+
+.hours h4, .info h4, .house_rules h4 {
+    color: rgb(214,79,106);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.house_rules h5 {
+    display: inline-block;
+    background-color: rgb(248, 212,92);
+    color: black;
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.info a {
+    display: block;
+    color: rgb(214,79,106);
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 6px;
+}
+
+
+.hours p, .info p, .house_rules p {
+    color: rgb(90, 90, 90);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+
+footer{
+    background-color: rgb(54,37,51);
+    color: white; 
+}
+
+
+
+.last{
+  display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 10px;  
+
+}
+
+
+.bio, .locate, .time{
+    flex: 0 0 180px;
+    min-height: 100px;
+    border-radius: 5px;
+    padding: 18px;
+    color: white;
+    font-weight: 1000;
+
+}
+
+.bio p, .locate p, .time p, .locate span{
+    color: rgb(179,169,176); 
+    font-size: 10px;
+
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+/* @media (max-width: 1060px){
+  
+
+  header{
+    background-color: green ;
+    
+}
+
+.location-text{
+    font: 18px;
+
+}
+
+.pic h1 {
+  font-size: 48px;
+  margin: 0;
+   width: 100%;
+   max-width: 900px;
+}
+
+
+.pic p {
+  width: 100%;
+  margin: 0; 
+max-width: 950px;
+
+}
+
+
+
+} */
+
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .step-container,  .price_container, .time_container .last {
+        flex-wrap: wrap;
+    }
+
+    .pic h1 {
+        font-size: 32px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+
+    .time_container{
+        flex-direction: column;
+
+    }
+
+    .last{
+        flex-direction: column;
+        gap: 5px; 
+
+    }
+
+    .bio, .locate, .time{
+    flex: 0 0 60px;
+    min-height: 40px;
+
+}
+}
+
+@media (max-width: 480px) {
+    
+    .step-container li,.card,.hours, .info, .house_rules, 
+    .bio, .locate, .time {
+        width: 100%;
+    }
+
+    .pic h1 {
+        font-size: 24px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
