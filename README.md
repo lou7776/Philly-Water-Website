@@ -9,6 +9,7 @@ Two Street Water Ice is a simple, responsive website for a Philadelphia water ic
 
 <img width="1090" height="540" alt="Screenshot 2026-11-08 at 6 15 19 PM" src="https://github.com/user-attachments/assets/bdf260c8-e587-4c41-896e-2a827226e3c5" />
 
+**Live Site**: https://phillywaterr.netlify.app/
 
 ## Features
 
